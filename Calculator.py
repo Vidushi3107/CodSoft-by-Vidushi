@@ -1,4 +1,4 @@
-    class MyCalculator:
+class MyCalculator:
 
     def __init__(self):
         self.num1 = ""
@@ -52,3 +52,5 @@
         y = int(input("Enter the second number: "))
         print("The division of two numbers are: ", x / y)
         self.menu()
+
+obj = MyCalculator()
